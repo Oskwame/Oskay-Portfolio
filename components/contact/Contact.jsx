@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FiUser, FiMail, FiEdit3, FiMessageSquare } from "react-icons/fi";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
